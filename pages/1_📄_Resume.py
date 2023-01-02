@@ -4,10 +4,14 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 
+# --- GENERAL SETTINGS ---
+PAGE_TITLE = "My Portfolio CV | Vidhu Dhande"
+PAGE_ICON = ":wave:"
 
 
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
-#st.title("**RESUME**")
+
 NAME = "Resume"
 
 resume_file = st.session_state['resume_file']
