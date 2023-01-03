@@ -16,20 +16,32 @@ st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 #st.title("**RESUME**")
 NAME = "Projects"
 
-resume_file = st.session_state['resume_file']
-current_dir = st.session_state['current_dir'] 
-profile_pic = st.session_state['profile_pic'] 
-css_file = st.session_state['css_file'] 
+#resume_file = st.session_state['resume_file']
+#current_dir = st.session_state['current_dir'] 
+#profile_pic = st.session_state['profile_pic'] 
+#css_file = st.session_state['css_file'] 
 
-Telecom_pic = st.session_state['Telecom_pic']
-Bank_pic = st.session_state['Bank_pic']
-EPD_pic = st.session_state['EPD_pic']
+#Telecom_pic = st.session_state['Telecom_pic']
+#Bank_pic = st.session_state['Bank_pic']
+#EPD_pic = st.session_state['EPD_pic']
 
-# --- LOAD CSS, PDF & PROFIL PIC ---
+current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
+parent_dir = current_dir.parent
+
+resume_file = parent_dir / "assets" / "Vidyanand Dhande_CV_Online.pdf"
+profile_pic = parent_dir / "assets" / "profile-pic.png"
+css_file = parent_dir / "styles" / "main.css"
+Telecom_pic = parent_dir / "assets" /"Telecom.jpg"
+Bank_pic = parent_dir / "assets" /"bank.png"
+EPD_pic = parent_dir / "assets" /"EPD.jpg"
+
+
+# --- LOAD CSS, PDF, Profile Pic, Bank, EPD, Telecom pics ---
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
+profile_pic = Image.open(profile_pic)
 
 with open(Bank_pic, "rb") as f:
     bankbyte = f.read()
@@ -40,7 +52,7 @@ with open(EPD_pic, "rb") as g:
 with open(Telecom_pic, "rb") as h:
     wipbyte = h.read()
 
-# --- HERO SECTION ---
+# --- Main Top SECTION ---
 col1, col2 = st.columns(2, gap="small")
 with col1:
     st.image(profile_pic, width=230)
