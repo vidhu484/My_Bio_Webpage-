@@ -131,7 +131,7 @@ st.write(
     """
 - ► Migrated from Sybase to SQL Server 2014 using the SSMA tool and demonstrated expertise in identifying and troubleshooting issues and documenting root cause analysis.
 - ► Conducted database management, performance measurement, and performance tuning using tools like SQL Proﬁler, Data Engine Tuning Advisor, and index tuning wizard.
-- ► Utilized SSIS to design and implement ETL processes to extract data from various sources, transform the data, and load it into a data warehouse. Created SSIS packages to extract data from flat files, databases, and APIs, and used transformations such as data cleansing, data merging, and data aggregation to prepare the data for analysis and reporting
+- ► Utilized SSIS to design and implement ETL processes to extract data from various sources, transform the data, and load it into a data warehouse. Created SSIS packages to extract data from flat files, databases, and APIs, and used transformations such as data cleansing, data merging, and data aggregation to prepare the data for analysis and reporting. In addition, used Power BI OLAP cubes to efficiently store and query data. 
 - ► Created and modiﬁed interactive dashboards and 30+ visualizations by identifying leading and lagging metrics and key KPIs for the project using Power BI. 
 - ► Developed tabular reports using SSAS, and SSRS, including drill-down, drill-through, and parameterized reports, and deployed and subscribed to reports to generate daily, weekly, and monthly reports.
 """
