@@ -14,7 +14,7 @@ st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 
 #st.title("**RESUME**")
-NAME = "PROJECTS"
+NAME = "Projects"
 
 resume_file = st.session_state['resume_file']
 current_dir = st.session_state['current_dir'] 

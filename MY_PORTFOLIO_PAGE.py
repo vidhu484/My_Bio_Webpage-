@@ -56,7 +56,7 @@ Analyzing data is my passion,and I love using it to help organizations make info
 EMAIL = "vidyananddhande@gmail.com"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/vidyanand-dhande-1ba02410/",
-    "GitHub": "https://github.com",
+    "GitHub": "https://github.com/vidhu484",
     "Instagram": "https://www.instagram.com/vidhu_dhande/",
 }
 
