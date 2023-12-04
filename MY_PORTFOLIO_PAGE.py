@@ -1,5 +1,4 @@
-﻿
-from pathlib import Path
+﻿from pathlib import Path
 
 import streamlit as st
 from PIL import Image
@@ -134,4 +133,3 @@ st.write(
 - ✔️ Committed to staying up to date with the latest industry trends and best practices, and eager to take on new challenges and drive continuous improvement.
 """
 )
-

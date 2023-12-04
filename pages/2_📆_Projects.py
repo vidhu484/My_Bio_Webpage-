@@ -148,6 +148,3 @@ with col2:
     st.image(wipbyte, width=350)
 
 #This is the end of the page here
-
-            
-  

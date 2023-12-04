@@ -100,13 +100,15 @@ st.write("Location: Atlanta, GA, USA")
 st.write("Jul 2021 - Present")
 st.write(
     """
-- ► Utilized SQL, SAS, and Python to analyze and transform large datasets of Student Loans, resulting in improved accuracy in capturing any exceptions on the accounts and resulting in a 95% decrease in false positives.
-- ► Utilized Airﬂow to automate the SQL and Python scripts and schedule data pipelines, resulting in a 50% reduction in manual work and a 15% increase in data processing eﬃciency.
-- ► Conducted a comprehensive analysis of student loan data using statistical methods such as Linear regression analysis using Python packages (pandas, NumPy, Sklearn), resulting in the development of recommendations to optimize repayment plans and reduce default rates.
+- ► Spearheaded the analysis and transformation of extensive student loan datasets using SQL, SAS, and Python, focusing on the accuracy of 1098-E tax calculations. 
+    This initiative significantly enhanced exception detection accuracy and led to a 95% reduction in false positives, streamlining tax reporting and ensuring compliance.
+- ► Utilized Airflow to automate SQL and Python scripts for student loan customer communications, streamlining letter and statement generation. 
+    This led to a 50% reduction in manual workload and a 15% increase in process efficiency, ensuring timely and accurate customer engagement.
+- ► Performed in-depth analysis of student loan data with Python and statistical methods, utilizing Oracle and Snowflake for efficient data querying, resulting in enhanced repayment strategies.
 - ► Performed A/B testing to optimize the design and messaging of student loan repayment communications, resulting in a 25% increase in response rates.
-- ► Implemented an ARIMA model to forecast interest rates for deposit accounts, resulting in improved decision-making and risk management for the Discover deposits.
-- ► Created interactive dashboards using Tableau, Python Tkinter, and Dash libraries to visualize and communicate key insights to stakeholders.
-- ► Mentored junior data analysts and provided technical guidance as needed.
+- ► Identified and implemented process improvements in data collection and analysis workflows, resulting in a 20% increase in operational efficiency.
+- ► Created interactive dashboards using Tableau, Google Analytics, Python Tkinter, and Dash libraries to visualize and communicate key insights to stakeholders.
+- ► Provided mentorship and technical leadership to junior data analysts, fostering professional growth and enhancing team performance.
 """
 )
 
@@ -203,5 +205,3 @@ st.write(
 
 """
 )
-
-
